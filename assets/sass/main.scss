@@ -1,0 +1,13 @@
+$brand-primary: #EF4734;
+$brand-secondary: #F67938;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  padding-top: 5rem;
+}
+
+.navbar {
+  background-image: -webkit-radial-gradient(50% 50%, circle, $brand-secondary 29%, $brand-primary 120%);
+  background-image: radial-gradient(  circle at 50% 50%, $brand-secondary 29%, $brand-primary 120%);
+}
